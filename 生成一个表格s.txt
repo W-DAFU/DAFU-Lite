@@ -1,0 +1,30 @@
+ /**
+         * @param title：excel文件名称
+         * @param headers：表头
+         * @param dataset：要保存到表格的对象集合
+         * @param attrList：对象要保存的属性
+         * @param out：输出目的地
+         */
+        @SuppressWarnings("unchecked")
+        public static void exportExcel(String title, String[] headers, Collection dataset,String attrList[], OutputStream out) {
+                
+                // 声明一个工作薄
+                Workbook workbook = new HSSFWorkbook();
+                
+                // 生成一个表格s
+                Sheet sheet = workbook.createSheet(title);  
+ /**
+         * @param title：excel文件名称
+         * @param headers：表头
+         * @param dataset：要保存到表格的对象集合
+         * @param attrList：对象要保存的属性
+         * @param out：输出目的地
+         */
+        @SuppressWarnings("unchecked")
+        public static void exportExcel(String title, String[] headers, Collection dataset,String attrList[], OutputStream out) {
+                
+                // 声明一个工作薄
+                Workbook workbook = new HSSFWorkbook();
+                
+                // 生成一个表格s
+                Sheet sheet = workbook.createSheet(title);  
